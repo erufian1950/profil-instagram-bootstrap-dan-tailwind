@@ -1,30 +1,36 @@
-.gallery-img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 5px;
-}
+/* Profile Image */
 .profile-img {
   width: 120px;
   height: 120px;
   object-fit: cover;
 }
+
+/* Highlight Stories */
+.highlight-circle {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.highlight-circle img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Gallery */
 .gallery-img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  cursor: pointer;
-  transition: 0.3s;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
 }
-
 .gallery-img:hover {
-  opacity: 0.85;
-}
-.text-center a .rounded-circle {
-  transition: 0.3s;
-}
-
-.text-center a:hover .rounded-circle {
-  border: 2px solid #ff3e6c; /* warna ala IG */
   transform: scale(1.05);
 }
