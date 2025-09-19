@@ -1,0 +1,30 @@
+.gallery-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.gallery-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gallery-img:hover {
+  opacity: 0.85;
+}
+.text-center a .rounded-circle {
+  transition: 0.3s;
+}
+
+.text-center a:hover .rounded-circle {
+  border: 2px solid #ff3e6c; /* warna ala IG */
+  transform: scale(1.05);
+}
